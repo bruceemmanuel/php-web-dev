@@ -1,5 +1,5 @@
 {
-    "name": "Exercise generator",
+    "name": "Quiz generator",
     "description": "Create a quiz page from tamplete questions",
     "type": "project",
     "autoload": {
