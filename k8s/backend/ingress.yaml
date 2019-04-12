@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: backend
+  namespace: php-training
+spec:
+  rules:
+  - host: php.training
+    http:
+      paths:
+      - path: 
+        backend:
+          serviceName: backend
+          servicePort: http

@@ -1,0 +1,26 @@
+@question
+
+@header 
+    Dado o script a seguir, assinale a alternativa correta:
+    (Fonte: https://www.php.net/manual/en/language.namespaces.faq.php)
+    """
+    1: <?php
+    2: namespace foo;
+    3: $a = new \my\name();
+    4: echo \strlen("hi");
+    5: $a = \INI_ALL;
+    """
+    
+@end
+@option 
+    Na linha 3, a classe "foo\my\name" é instanciada.
+@end
+@option correct
+    Na linha 4 há uma chamada à função "strlen" do escopo global.
+@end
+@option
+    A linha 5 gera um erro. A constante INI_ALL deve ser definida no namespace "foo" para corrigir o problema e isto poderá ser feito com a função "define".
+@end
+@option
+    A linha 5 gera um erro. A constante INI_ALL deve ser definida no namespace "foo" para corrigir o problema e isto poderá ser feito com a construção de linguagem "const".
+@end

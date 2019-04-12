@@ -1,0 +1,36 @@
+@question
+
+@header 
+    Considere os arquivos abaixo e assinale a alternativa correta:
+    (Fonte: https://www.php.net/manual/en/language.namespaces.faq.php)
+    """
+    Arquivo 1
+
+    <?php
+    namespace my\stuff {
+        namespace nested {
+            class foo {}
+        }
+    }
+
+    Arquivo 2
+    
+    <?php
+    namespace my\stuff\nested {
+        class foo {}
+    }
+    """
+@end
+
+@option
+    Ambas as abordagens são validas para declaração de namespace aninhado.
+@end
+@option
+    Somente a abordagem do "Arquivo 2" refere-se a namespace aninhado.
+@end
+@option
+    Ambas as abordagens são validas, contudo o "Arquivo 1" é menos performático.
+@end
+@option correct
+    A abordagem do "Arquivo 1" é uma simulação de namespace aninhado e a abordagem do "Arquivo 2" é inválida.
+@end

@@ -1,0 +1,31 @@
+@question
+
+@header 
+    What is the outcome of this piece of code:
+    (Fonte: http://www.webmull.com/php-basic-quiz-questions-for-variables-constant-and-data-type)
+    """
+    <?php
+    define("CONSTANT", 1);
+    define("_CONSTANT", 0);
+    
+    define("EMPTY", "");
+    
+    if (!empty(EMPTY)){
+        if(!((boolean) _CONSTANT)){
+            print "One";
+        }
+    }
+    else if(constant('CONSTANT')){
+        print "Two";
+    }
+    """
+@end
+@option
+    One
+@end
+@option correct
+    Two
+@end
+@option
+    Syntax Error
+@end

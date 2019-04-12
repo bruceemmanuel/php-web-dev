@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: php-training
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: localhost:32000/php-training:0.0.1
+        ports:
+          - containerPort: 80
+            name: http
+        volumeMounts:
+          - name: backend-data
+            mountPath: /srv/app
+      volumes:
+      - name: backend-data
+        hostPath:
+          path: /home/rafael/.microk8s-mounts/php-training-data

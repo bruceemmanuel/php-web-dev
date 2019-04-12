@@ -1,0 +1,29 @@
+@question
+
+@header 
+    Dado o script a seguir, assinale a alternativa INCORRETA:
+    (Fonte: https://www.php.net/manual/en/language.namespaces.faq.php)
+    """
+    1: <?php
+    2: namespace foo;
+    3: use blah\blah as foo;
+    4: 
+    5: $a = new my\name();
+    6: foo\bar::name();
+    7: my\bar();
+    8: $a = my\BAR;
+    """
+    
+@end
+@option
+    Na linha 5, a classe "foo\my\name" é instanciada.
+@end
+@option
+    Na linha 6, o metodo estático "name" da classe "blah\blah\bar" é chamado.
+@end
+@option
+    Na linha 7, a função "foo\my\bar" é chamada.
+@end
+@option correct
+    Na linha 8, $a recebe o valor da constante "bla\blah\BAR".
+@end

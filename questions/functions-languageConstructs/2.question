@@ -1,0 +1,15 @@
+@question
+
+@header 
+    No PHP, é INCORRETO afirmar:
+    (Fonte: https://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions)
+@end
+@option
+    A construção de linguagem "require" é identica à "include" exceto no que tange à falha, quando "require" irá lançar um erro fatal.
+@end
+@option
+    A sentença require_once() é identica à require() exceto que o PHP irá verificar se o arquivo já foi incluido.
+@end
+@option correct
+    A sentença require_once() deve ser utilizada em detrimento à require(), pois esta não apresenta nenhuma vantagem em relação aquela.
+@end

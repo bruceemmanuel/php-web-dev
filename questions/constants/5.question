@@ -1,0 +1,28 @@
+@question
+
+@header 
+    What will be the output of the following PHP code ?
+    (Fonte: https://www.sanfoundry.com/php-coding-mcqs-constants)
+    """
+    <?php
+    define("GOOD_OCTAL", 0700);
+    define("BAD_OCTAL", 0600);
+    print GOOD_OCTAL;
+    print "<br>";
+    print BAD_OCTAL;
+    """
+@end
+@option correct
+    448
+    384
+@end
+@option
+    0700
+    0800
+@end
+@option
+    ERROR
+@end
+@option
+    No output
+@end
