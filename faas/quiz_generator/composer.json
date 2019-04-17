@@ -1,0 +1,13 @@
+{
+    "name": "Quiz generator",
+    "description": "Create a quiz page from tamplete questions",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1"
+    }
+}

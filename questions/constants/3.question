@@ -1,0 +1,23 @@
+@question
+
+@header 
+    What will be the output of the following PHP code ?
+    (Fonte: https://www.sanfoundry.com/php-coding-mcqs-constants)
+    """
+    <?php
+    define("__LINE__", "PHP is a scripting language");
+    echo __LINE__;
+    """
+@end
+@option
+    PHP is a scripting language
+@end
+@option
+    __LINE__
+@end
+@option
+    ERROR
+@end
+@option correct
+    2
+@end

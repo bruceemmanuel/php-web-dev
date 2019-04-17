@@ -1,0 +1,39 @@
+@question
+
+@header
+    Qual será a saida deste script?
+    """
+    <?php
+    function A() {
+    try {
+            b();
+        } catch (Exception $e) {
+            echo "Exception caught in " . __CLASS__;
+        }
+    }
+    function B() {
+        C();
+    }
+    try {
+        A();
+    } catch (Error $e) {
+        echo "Error caught in global scope: " . $e->getMessage();
+    }
+    """
+@end
+
+@option
+    Exception caught in A
+@end
+
+@option correct
+    Error caught in global scope: Call to undefined function C()
+@end
+
+@option
+    Error caught in global scope: Call to undefined function b()
+@end
+
+@option
+    Nenhuma das demais alternativas
+@end

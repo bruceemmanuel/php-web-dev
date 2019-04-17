@@ -1,0 +1,18 @@
+@question
+
+@header 
+    No PHP, é INCORRETO afirmar:
+    (Fonte: https://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions)
+@end
+@option correct
+    Percebemos o mesmo resultado ao passarmos, como argumento de uma função, variáveis com valor nulo (ex. $a = null) e variáveis sem valor atribuido (ex. $a).
+@end
+@option
+    Construções de linguagens podem ser usada e comportan-se de forma semelhante à funções pre-definidas, mas são interpretadas de forma diferente pelo motor do PHP.
+@end
+@option
+    São exemplos de construção de linguagem: die, require e include
+@end
+@option
+    São exemplos de construção de linguagem "empty" e "isset". A primeira é equivalente à "!isset($var) || $var == false". 
+@end

@@ -1,0 +1,36 @@
+@question
+
+@header 
+    What will be the output of the following PHP code?
+    (Fonte: https://www.sanfoundry.com/php-coding-mcqs-constants)
+    """
+    <?php
+    class Constants
+    {
+        define("MIN_VALUE", "0.0");  
+        define("MAX_VALUE", "1.0");  
+        public static function getMinValue()
+        {
+            return self::MIN_VALUE;
+        }
+        public static function getMaxValue()
+        {
+            return self::MAX_VALUE;
+        }
+    }
+    echo Constants::getMinValue();
+    echo Constants::getMaxValue();
+    """
+@end
+@option
+    0.01.0
+@end
+@option
+    01
+@end
+@option
+    No output
+@end
+@option correct
+    ERROR
+@end

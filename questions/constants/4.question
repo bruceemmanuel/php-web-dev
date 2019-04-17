@@ -1,0 +1,23 @@
+@question
+
+@header 
+    What will be the output of the following PHP code ?
+    (Fonte: https://www.sanfoundry.com/php-coding-mcqs-constants)
+    """
+    <?php
+    define("IF", 42); 
+    echo "IF: ", IF;
+    """
+@end
+@option
+    IF:42
+@end
+@option
+    No output
+@end
+@option correct
+    ERROR
+@end
+@option
+    IF:
+@end

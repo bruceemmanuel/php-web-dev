@@ -1,0 +1,17 @@
+@question
+
+@header 
+    Qual das seguintes tags deve ser evitada ao incluir PHP em HTML?
+@end
+@option 
+    <?php
+@end
+@option correct
+    <?
+@end
+@option
+    <?=
+@end
+@option correct
+    Nenhuma das alternativas; todas podem ser usadas sem problemas
+@end

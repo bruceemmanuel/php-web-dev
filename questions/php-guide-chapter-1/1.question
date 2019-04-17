@@ -1,0 +1,26 @@
+@question
+
+@header 
+    Qual sera a saida do seguinte script?
+    """
+    <?php
+        $a = "Hello";
+        $B = " world";
+        ECHO $a . $b;
+    """
+@end
+@option 
+    Nenhuma; isso não ira rodar
+@end
+@option
+    Hello world
+@end
+@option
+    Hello
+@end
+@option
+    Uma mensagem de erro porque a variavel b não foi definida
+@end
+@option correct
+    Uma mensagem de erro e a palavra "Hello"
+@end
